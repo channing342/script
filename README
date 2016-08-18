@@ -1,0 +1,12 @@
+total 9616
+-rw-r--r--  1 channingliu  staff        0 May 26 11:33 README
+-rwxr-xr-x  1 channingliu  staff     1372 May 18 09:16 check_domain.sh
+-rw-r--r--  1 channingliu  staff       20 May 18 09:13 domain.txt
+drwxr-xr-x  7 channingliu  staff      238 May 23 09:15 download
+-rwxr-xr-x  1 channingliu  staff      511 May 15 09:26 feed.sh
+-rw-r--r--  1 channingliu  staff        0 May 18 09:15 httpstatus.txt
+-rw-r--r--  1 channingliu  staff      265 May 18 09:15 mail
+-rwxr-xr-x  1 channingliu  staff      584 May 15 09:19 penguin.sh
+-rw-r--r--  1 channingliu  staff  4900850 May  7 23:59 sticker1.tar.gz
+channingliu
+Hello Fuck the World

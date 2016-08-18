@@ -1,0 +1,5 @@
+- name: echo 3
+  command: /bin/echo 3
+
+- name: echo 4
+  command: /bin/echo 4
