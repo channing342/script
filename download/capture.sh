@@ -1,6 +1,6 @@
 #!/bin/bash
 # Filename:    capture.sh
-# Revision:    0.1
+# Revision:    0.2
 # Date:        2016/05/21
 # Author:      Channing Liu
 
@@ -8,7 +8,7 @@
 
 read -p 'Line Store Link : ' url
 curl $url > tmp
-grep 'https://sdl-stickershop.line.naver.jp/products/' tmp | awk '{FS="("} {print $2}' | awk '{FS=")"} {print $1}' | grep -v ^$ | grep -v ^src > sticker-url
+grep 'https://sdl-stickershop.line.naver.jp/products/' tmp | awk '{FS="("} {print $2}' | awk '{FS=")"} {print $1}' | grep -v ^$ | awk '{FS=";"} {print $1}' | grep -v ^src > sticker-url
 while  read  sticker; do
 curl -O  $sticker > /dev/null 
 done < sticker-url
